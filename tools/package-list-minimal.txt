@@ -15,6 +15,7 @@ extras;google;market_apk_expansion
 extras;google;market_licensing
 extras;google;simulators
 extras;google;webdriver
+extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0
 extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2
 extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2
 lldb;2.3
