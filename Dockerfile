@@ -38,7 +38,7 @@ COPY licenses /opt/
 
 WORKDIR /opt/android-sdk-linux
 
-RUN /opt/tools/entrypoint.sh built-in
+RUN /opt/tools/entrypoint.sh lazy-dl
 
-CMD /opt/tools/entrypoint.sh built-in
+CMD /opt/tools/entrypoint.sh lazy-dl
 
