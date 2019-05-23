@@ -51,14 +51,14 @@ else
     android-accept-licenses.sh "sdkmanager ${SDKMNGR_OPTS} --package_file=/opt/tools/package-list.txt --verbose"
 fi
 
-sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0"
-
 echo "Updating SDK"
 update_sdk
 
 echo "Accepting Licenses"
 android-accept-licenses.sh "sdkmanager ${SDKMNGR_OPTS} --licenses --verbose"
 
+
+android-accept-licenses.sh "sdkmanager 'extras;m2repository;com;android;support;constraint;constraint-layout;1.0.0'"
 echo "update gradle bins"
 cd ${ANDROID_HOME}
 
